@@ -7,6 +7,10 @@ public class WriterCopy {
 
     public WriterCopy() throws IOException {
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
+=======
+        //FileWriter newFile = new FileWriter(String.valueOf(scanner),true);
+>>>>>>> origin/master
         System.out.println("Введите имя файла с расширением: ");
         String originalFile = scanner.nextLine();
         FileWriter newFile = new FileWriter(originalFile);  //создал newFile объект класса FileWriter и именовал его из originalFile
